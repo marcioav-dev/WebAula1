@@ -1,0 +1,16 @@
+﻿@model WebAula1.Models.Person
+@{
+}
+
+<h2>Excluir</h2>
+
+<div class="row">
+    @Html.DisplayFor(model => model.Name)
+    @Html.DisplayFor(model => model.Address)
+    @Html.DisplayFor(model => model.BirthYear)
+</div>
+
+<form asp-action="Excluir">
+    <input type="hidden" asp-for="PersonId" />
+    <input type="submit" value="Exlcuir" class="btn btn-danger" />
+</form>

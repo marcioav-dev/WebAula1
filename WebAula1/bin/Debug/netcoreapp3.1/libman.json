@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "cdnjs",
+      "library": "materialize@1.0.0",
+      "destination": "wwwroot/lib/materialize/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datepicker@1.0.9",
+      "destination": "wwwroot/lib/datepicker/"
+    },
+    {
+      "library": "fullcalendar@3.10.2",
+      "destination": "wwwroot/lib/fullcalendar/"
+    }
+  ]
+}
